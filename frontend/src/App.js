@@ -6,13 +6,17 @@ import './App.css';
 
 function App() {
   const [activePage, setActivePage] = useState('dashboard');
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
     <div className="app-layout">
-      <Sidebar setActivePage={setActivePage} activePage={activePage} />
-      <div className="content">
-        {activePage === 'dashboard' ? <FeedbackDashboard /> : <FeedbackForm />}
-      </div>
+      <Sidebar
+        setActivePage={setActivePage}
+        activePage={activePage}
+        isOpen={sidebarOpen}
+        toggleSidebar={setSidebarOpen}
+      />
+      <div className="content">{activePage === 'dashboard' ? <FeedbackDashboard /> : <FeedbackForm />}</div>
     </div>
   );
 }
