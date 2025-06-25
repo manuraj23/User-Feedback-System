@@ -3,15 +3,18 @@
 This is a full-stack web application built to collect, store, and manage user feedback effectively. It leverages the MERN stack — MongoDB, Express.js, React, and Node.js — to provide a seamless experience to users.
 
 ### Dashboard
-![image](https://github.com/user-attachments/assets/463744c3-47f9-4b29-b4b5-9ea475b064c9)
+![image](https://github.com/user-attachments/assets/8d67a839-cfdc-4a37-90e6-de854cd147c5)
+
 
 ### Feedback Form
-![image](https://github.com/user-attachments/assets/9f0f8254-ce5b-407f-a92b-8d1989baedd8)
+![image](https://github.com/user-attachments/assets/f01a28eb-0b46-4e32-9a8f-38c83ec03a25)
+
+
 
 ### Responsive Look:
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/10c53b54-a645-438a-9db8-9a660e357ce6" alt="Image 1" width="45%" />
-  <img src="https://github.com/user-attachments/assets/9f95308f-681c-4779-877d-5180b057ff50" alt="Image 2" width="45%" />
+  <img src="https://github.com/user-attachments/assets/d317cefe-5ac6-4ede-a191-c248491a487b" alt="Image 1" width="45%" />
+  <img src="https://github.com/user-attachments/assets/17e5de8e-4648-40dc-aca5-07931eb8497f" alt="Image 2" width="45%" />
 </p>
 
 
