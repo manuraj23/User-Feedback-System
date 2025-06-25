@@ -2,19 +2,19 @@
 
 This is a full-stack web application built to collect, store, and manage user feedback effectively. It leverages the MERN stack — MongoDB, Express.js, React, and Node.js — to provide a seamless experience to users.
 
-###Dashboard
+### Dashboard
 ![image](https://github.com/user-attachments/assets/463744c3-47f9-4b29-b4b5-9ea475b064c9)
 
-###Feedback Form
+### Feedback Form
 ![image](https://github.com/user-attachments/assets/9f0f8254-ce5b-407f-a92b-8d1989baedd8)
 
 ### Responsive Look:
-![image](https://github.com/user-attachments/assets/10c53b54-a645-438a-9db8-9a660e357ce6)     ![image](https://github.com/user-attachments/assets/9f95308f-681c-4779-877d-5180b057ff50)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/10c53b54-a645-438a-9db8-9a660e357ce6" alt="Image 1" width="45%" />
+  <img src="https://github.com/user-attachments/assets/9f95308f-681c-4779-877d-5180b057ff50" alt="Image 2" width="45%" />
+</p>
 
 
-
-
----
 
 
 # 📖 Project Overview
@@ -32,7 +32,7 @@ The **User Feedback System** allows users to submit feedback through a frontend 
 - **✍️ Feedback Submission:**: Users can submit feedback with details like name, email, category, and message.
 - **📊 Dashboard Display**:  A real-time dashboard lists all submitted feedback with filtering and sorting capabilities.
 - **📂 Category-Based Filtering** *(Optional)*: View feedback by categories like Bug, Suggestion, Improvement, etc.
-- **🔐 Secure Data Handling:**Data is securely sent to and stored in MongoDB via a Node.js backend.
+- **🔐 Secure Data Handling:** Data is securely sent to and stored in MongoDB via a Node.js backend.
 - **Scalability**: Backend built to handle multiple simultaneous submissions efficiently.
 - **Clean Code Structure**: Modular and follows standard coding practices for maintainability.
 
