@@ -25,6 +25,19 @@
   border: 1px solid #ccc;
 }
 
+.filters-row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap; /* Optional: wraps on small screens */
+}
+
+.category-filter {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+
 .feedback-list {
   display: grid;
   gap: 20px;
@@ -38,6 +51,8 @@
 }
 
 .feedback-header {
+  display: flex;
+  gap: 1rem;
   font-size: 1.1rem;
   color: #222;
   margin-bottom: 8px;

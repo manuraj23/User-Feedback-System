@@ -5,7 +5,7 @@ function Sidebar({ setActivePage, activePage, isOpen, toggleSidebar }) {
   return (
     <>
       <div className={`sidebar ${isOpen ? 'open' : ''}`}>
-        <h2 className="logo">Feedback App</h2>
+        <h2 className="logo">User Feedback System</h2>
         <button
           className={activePage === 'dashboard' ? 'active' : ''}
           onClick={() => {
