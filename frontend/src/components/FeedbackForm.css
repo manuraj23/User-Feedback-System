@@ -1,6 +1,6 @@
 .feedback-form {
   width: 100%;
-  max-width: 500px;
+  max-width: 70%;
   margin: 40px auto;
   padding: 20px;
   background-color: #f9f9f9;
@@ -13,7 +13,7 @@
 .feedback-form textarea,
 .feedback-form select,
 .feedback-form button {
-  width: 100%;
+  width: 97%;
   padding: 12px;
   margin: 10px 0;
   border: 1px solid #ccc;

@@ -1,17 +1,20 @@
-
-import React from 'react';
+import React, { useState } from 'react';
 import FeedbackForm from './components/FeedbackForm';
 import FeedbackDashboard from './components/FeedbackDashboard';
+import Sidebar from './components/Sidebar';
 import './App.css';
+
 function App() {
+  const [activePage, setActivePage] = useState('dashboard');
+
   return (
-    <div className="app-container">
-      <div className="left"><FeedbackDashboard /></div>
-      <div className="right"><FeedbackForm /></div>
+    <div className="app-layout">
+      <Sidebar setActivePage={setActivePage} activePage={activePage} />
+      <div className="content">
+        {activePage === 'dashboard' ? <FeedbackDashboard /> : <FeedbackForm />}
+      </div>
     </div>
   );
 }
 
 export default App;
-
-

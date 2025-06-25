@@ -19,10 +19,12 @@ const FeedbackForm = () => {
     try {
       await submitFeedback(formData);
       alert('Feedback submitted successfully');
+      window.location.reload();
       setFormData({ userName: '', email: '', feedbackText: '', category: 'Suggestion' });
     } catch (error) {
       console.error(error);
       alert('Failed to submit feedback');
+      window.location.reload();
     }
   };
 
