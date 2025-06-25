@@ -1,56 +1,52 @@
-
 .feedback-form {
-    width: 100%;
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .feedback-form input,
-  .feedback-form textarea,
-  .feedback-form select,
-  .feedback-form button {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 1rem;
-  }
-  
-  .feedback-form input:focus,
-  .feedback-form textarea:focus,
-  .feedback-form select:focus,
-  .feedback-form button:focus {
-    outline: none;
-    border-color: #007bff;
-  }
-  
-  .feedback-form button {
-    background-color: #007bff;
-    color: white;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .feedback-form button:hover {
-    background-color: #0056b3;
-  }
-  
-  .feedback-form textarea {
-    height: 120px;
-    resize: vertical;
-  }
-  
-  .feedback-form select {
-    cursor: pointer;
-  }
-  
-  .feedback-form h2 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
+  width: 100%;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.feedback-form input,
+.feedback-form textarea,
+.feedback-form select,
+.feedback-form button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.feedback-form input:focus,
+.feedback-form textarea:focus,
+.feedback-form select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.feedback-form button {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.feedback-form button:hover {
+  background-color: #0056b3;
+}
+
+.feedback-form textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+.feedback-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
