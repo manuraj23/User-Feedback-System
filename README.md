@@ -33,12 +33,12 @@ The **User Feedback System** allows users to submit feedback through a frontend 
 ---
 # 🚀 Key Features
 
-- **✍️ Feedback Submission:**: Users can submit feedback with details like name, email, category, and message.
-- **📊 Dashboard Display**:  A real-time dashboard lists all submitted feedback with filtering and sorting capabilities.
-- **📂 Category-Based Filtering** *(Optional)*: View feedback by categories like Bug, Suggestion, Improvement, etc.
-- **🔐 Secure Data Handling:** Data is securely sent to and stored in MongoDB via a Node.js backend.
-- **Scalability**: Backend built to handle multiple simultaneous submissions efficiently.
-- **Clean Code Structure**: Modular and follows standard coding practices for maintainability.
+- **✍️ Feedback Submission:**: Users can easily submit feedback, including their name, email, category, and message content.
+- **📊 Dashboard Display**:  A dynamic dashboard displays all submitted feedback with built-in options for filtering and sorting.
+- **📂 Category-Based Filtering** *(Optional)*:  Filter feedback by categories such as Bug, Suggestion, Improvement, and more.
+- **🔐 Secure Data Handling:** Feedback data is securely transmitted and stored using a Node.js backend and MongoDB.
+- **📦 Dockerized Deployment:** The entire application is containerized using Docker for consistent, hassle-free setup and deployment.
+- **⚙️ Scalable Architecture**: The backend is designed to efficiently manage high volumes of concurrent feedback submissions.
 
 ---
 
@@ -47,8 +47,8 @@ The **User Feedback System** allows users to submit feedback through a frontend 
 - **Backend**: Node.js, Express.js
 - **Frontend**: React.js
 - **Database**: MongoDB
-- **Environment Variables**: `.env` file for configuration
 - **Version Control**: Git
+- **Containerization**: Docker
 
 ---
 
@@ -58,19 +58,57 @@ The **User Feedback System** allows users to submit feedback through a frontend 
 - `App.js`: Main React component that serves as the entry point for the frontend.
 - `FeedbackForm.js`: Component for submitting user feedback.
 - `FeedbackDashboard.js`: Component to display feedback with filtering and sorting options.
+- `Sidebar.js`: Component for the sidebar navigation.
+- `feebackService.js`: Service for making API calls to the backend.
+- `Dockerfile`: Dockerfile for building the frontend image.
 
 **Backend Files:**
 - `db.js`: Establishes connection to MongoDB database.
-- `feedbackModel.js`: Defines the schema for storing feedback data.
-- `feedbackRoutes.js`: Defines the API routes.
+- `Feedback.js`: Defines the schema for storing feedback data.
+- `feedbackRoutes.js`: Defines the API routes for feedback.
 - `server.js`: Entry point for the backend server, initializes the app and connects to the database.
-
+- `feedbackController.js` : Contains the logic for handling feedback-related requests.
+- `Dockerfile`: Dockerfile for building the backend image.
 
 ---
 
 # ⚙️ Setup Instructions
 
-## Prerequisites
+
+## Using Docker
+
+### Prerequisites
+- Docker installed on your machine  
+- Docker Compose installed
+- Git installed
+- MongoDB instance running (either locally or using a service like MongoDB Atlas)
+
+To set up the User Feedback System using Docker, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+    git clone https://github.com/manuraj23/User-Feedback-System.git
+    cd User-Feedback-System
+    ```
+2. **Build the Docker images**:
+   ```bash
+   docker-compose build
+   ```
+3. **Start the Docker containers**:
+   ```bash
+    docker-compose up
+    ```
+4. **Access the Application**:
+   Open your browser and navigate to `http://localhost:3000 ` to interact with the **User Feedback System**.
+
+5. **Stop the Docker containers**:
+   To stop the running containers, you can use:
+   ```bash
+   docker-compose down
+   ```
+
+
+## Prerequisites for without Docker
 
 - Node.js and npm installed
 - MongoDB instance set up
@@ -158,7 +196,8 @@ Open your browser and navigate to `http://localhost:3000` to interact with the *
 This project is licensed under the MIT License.
 
 ## Contact
-For queries, reach out to [Manu Raj](mailto:manuraj082004@gmail.com).
+
+####### For queries, reach out to [Manu Raj](mailto:manuraj082004@gmail.com).
 ---
 
 
